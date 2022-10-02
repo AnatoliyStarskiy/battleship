@@ -1,5 +1,6 @@
 body {
-    background-color: #000;
+    background-color: #FFFFFE;
+
 }
 
 .board {
@@ -14,7 +15,9 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    color: rgb(83, 175, 19);
+    color: #05059A;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 table {
@@ -35,13 +38,42 @@ form {
     bottom: 0;
     right: 0;
     padding: 15px;
-    background-color: rgb(83, 175, 19);
+    background-color: #8b8bb1;
 }
 
 form input {
-    background-color: rgb(152, 207, 113);
-    border-color: rgb(83, 175, 19);
     font-size: 1em;
+}
+
+.form {
+    width: 100px;
+    padding: 10px;
+}
+
+.guessInput {
+    width: 90px;
+    height: 50px;
+    text-align: center;
+    color: #FFFFFE !important;
+    background-color: #dadada;
+    font-size: 2em;
+}
+
+.guessInput::placeholder {
+    color: rgba(0, 0, 0, 0.137);
+    font-size: 1em;
+}
+
+.fireButton {
+    margin: 10px auto 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    color: #FFFFFE;
+    font-weight: bold;
+    border-color: rgb(242, 0, 0);
+    background-color: rgb(230, 43, 43);
+    ;
 }
 
 .hit {
